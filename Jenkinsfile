@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
+        stage('BuildApp') {
             steps {
                 echo 'Build Stage automatically'
                 sh 'mvn clean install'
